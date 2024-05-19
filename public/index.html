@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Express</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+<h1>水果物價查詢</h1>
+
+<p>請選擇要查詢的水果</p>
+<select id="fruitSelect">
+    <option value="apple">蘋果</option>
+    <option value="banana">香蕉</option>
+    <option value="watermelon">西瓜</option>
+    <option value="pineapple">鳳梨</option>
+    <option value="mango">芒果</option>
+    <option value="grape">葡萄</option>
+</select>
+
+<p>請選擇要查詢的年份</p>
+<select id="yearSelect">
+    <option value="108">108</option>
+    <option value="109">109</option>
+    <option value="110">110</option>
+    <option value="111">111</option>
+    <option value="112">112</option>
+    <option value="113">113</option>
+</select>
+
+<br><br>
+<button id="queryButton">查詢</button>
+<table id="resultsTable">
+    <thead>
+    <tr>
+        <th>日期</th>
+        <th>平均價(元/公斤)</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+<script src="/javascripts/form.js"></script>
+</body>
+
+</html>
